@@ -1,0 +1,90 @@
+
+/* ======= ======= ======= general ======= ======= ======= */
+body, html {
+    height: 100%;
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Ariel", sans-serif;
+}
+
+/* ======= ======= =======  container  ======= ======= ======= */
+#content {
+    width: 80%;
+    height: 70%;
+    margin: 120px auto;
+    border: solid 2px #038DFF;
+}
+
+/* ======= ======= ======= styles  ======= ======= ======= */
+/* ======= ======= ======= styles  ======= ======= ======= */
+/* ======= ======= ======= styles  ======= ======= ======= */
+#video {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+}
+.paraA {
+  float: left;
+  margin: 20px 10px;
+  padding: 20px;
+  width: 120px;
+  height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #eee;
+  color: #1AC212;
+}
+#main_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-end;
+  width: 80%;
+  height: 80px;
+  margin: 45px auto;
+  text-align: center;
+  background-color:
+}
+.menu_item {
+  margin: 10px;
+  width: 140px;
+  height: 60px;
+  background-color: #038DFF;
+}
+#logo {
+  position: absolute;
+  height: 200px;
+  width: 400px;;
+  top: 1%;
+  left: 1%;
+}
+#img {
+  position: absolute;
+  top: 45%;
+  left: 900px;
+}
+#dog {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+
+/* ======= ======= ======= positioning  ======= ======= ======= */
+/*#main-menu {
+
+}
+.menu-item {
+
+}
+.menu-item > p {
+
+}
+#mini-menu {
+
+}
+*/
