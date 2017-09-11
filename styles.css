@@ -7,6 +7,9 @@ body, html {
     padding: 0;
     border: none;
     box-sizing: border-box;
+    /*background-color: #CCCCCC;*/
+    background: url(img/grass.jpg);
+    background-size: cover;
 }
 body {
     font-family: "Ariel", sans-serif;
@@ -18,62 +21,67 @@ body {
     height: 70%;
     margin: 120px auto;
     border: solid 2px #038DFF;
+    background-color: #CCCCCC;
+    background: rgba(0,0,0,0.3)
 }
 
 /* ======= ======= ======= styles  ======= ======= ======= */
 /* ======= ======= ======= styles  ======= ======= ======= */
 /* ======= ======= ======= styles  ======= ======= ======= */
-#video {
+#para {
   position: absolute;
-  top: 50%;
-  left: 75%;
-}
-.paraA {
-  float: left;
   margin: 20px 10px;
-  padding: 20px;
-  width: 120px;
-  height: 60px;
+  top: 49%;
+  left: 15%;
   text-align: center;
-  box-sizing: border-box;
-  background-color: #eee;
-  color: #1AC212;
-}
+  padding: 20px;
+  width: 500px;
+  height: 60px;
+  font-size: 20px;
+  color: #FDFDFD;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;}
+
 #main_menu {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-content: flex-end;
-  width: 80%;
+  width: 19%;
   height: 80px;
-  margin: 45px auto;
+  margin: 45px 5px 0px 1200px;
   text-align: center;
-  background-color:
+  background-color: black;
 }
 .menu_item {
-  margin: 10px;
+  margin: 5px;
   width: 140px;
   height: 60px;
+  padding: 5px;
   background-color: #038DFF;
 }
 #logo {
   position: absolute;
   height: 200px;
   width: 400px;;
-  top: 1%;
-  left: 1%;
-}
-#img {
-  position: absolute;
-  top: 45%;
-  left: 900px;
+  top: 0%;
+  left: 10%;
 }
 #dog {
   position: absolute;
-  top: 45%;
-  left: 10%;
+  top: 0%;
+  left: 50%;
+  border: 3px solid;
 }
+#video {
+  position: absolute;
+  top: 490px;
+  left: 930px;
+}
+#welcome {
+  position: absolute;
+  top: 250px;
+  left: 19%;
 
+}
 /* ======= ======= ======= positioning  ======= ======= ======= */
 /*#main-menu {
 
