@@ -1,0 +1,100 @@
+
+/* ======= ======= ======= general ======= ======= ======= */
+body, html {
+    height: 100%;
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    background-color: #CCCCCC;
+}
+body {
+    font-family: "Ariel", sans-serif;
+}
+
+/* ======= ======= =======  container  ======= ======= ======= */
+#content {
+    width: 80%;
+    height: 70%;
+    margin: 120px auto;
+    border: solid 2px #038DFF;
+}
+
+/* ======= ======= ======= styles  ======= ======= ======= */
+/* ======= ======= ======= styles  ======= ======= ======= */
+/* ======= ======= ======= styles  ======= ======= ======= */
+/*p {
+  margin: 20px auto;
+  text-align: center;
+  background-color: #eee;
+  width: 120px;
+  height: 60px;
+}
+#paragraph2 {
+  text-align: center;
+  background-color: #eee;
+  color: #0055FF;
+}*/
+/*.paraA {
+  float: left;
+  margin: 20px 10px;
+  padding: 20px;
+  width: 120px;
+  height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #eee;
+  color: #1AC212;
+}*/
+input {
+  margin-left: 40%;
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type="Donate"] {
+  background: red;
+  color: white;
+}
+p {
+  font-size: 20px;
+}
+#main_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-end;
+  width: 80%;
+  height: 80px;
+  margin: 45px auto;
+  text-align: center;
+  background-color:
+}
+.menu_item {
+  margin: 10px;
+  width: 140px;
+  height: 60px;
+  background-color: #038DFF;
+}
+#logo {
+  position: absolute;
+  height: 200px;
+  width: 400px;;
+  top: 1%;
+  left: 1%;
+}
+/* ======= ======= ======= positioning  ======= ======= ======= */
+/*#main-menu {
+
+}
+.menu-item {
+
+}
+.menu-item > p {
+
+}
+#mini-menu {
+
+}
+*/
