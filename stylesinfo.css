@@ -7,7 +7,8 @@ body, html {
     padding: 0;
     border: none;
     box-sizing: border-box;
-    background-color: #CCCCCC;
+    background: url(img/grass.jpg);
+    background-size: cover;
 }
 body {
     font-family: "Ariel", sans-serif;
@@ -15,56 +16,48 @@ body {
 
 /* ======= ======= =======  container  ======= ======= ======= */
 #content {
-    width: 80%;
-    height: 70%;
-    margin: 120px auto;
-    border: solid 2px #038DFF;
+  width: 80%;
+  height: 70%;
+  margin: 120px auto;
+  border: solid 2px #038DFF;
+  background-color: #CCCCCC;
+  background: rgba(0,0,0,0.3)
 }
 
-/* ======= ======= ======= styles  ======= ======= ======= */
-/* ======= ======= ======= styles  ======= ======= ======= */
-/* ======= ======= ======= styles  ======= ======= ======= */
-/*p {
-  margin: 20px auto;
+/* ======= ======= ======= footer  ======= ======= ======= */
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #CCCCCC;
   text-align: center;
-  background-color: #eee;
-  width: 120px;
-  height: 60px;
 }
-#paragraph2 {
-  text-align: center;
-  background-color: #eee;
-  color: #0055FF;
-}*/
-/*.paraA {
-  float: left;
-  margin: 20px 10px;
-  padding: 20px;
-  width: 120px;
-  height: 60px;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #eee;
-  color: #1AC212;
-}*/
-p {
-  font-size: 20px;
+#logo {
+  position: absolute;
+  height: 200px;
+  width: 400px;;
+  top: 0%;
+  left: 10%;
 }
+
 #text {
   position: absolute;
-  float: left;
-  margin-top: 0px;
+  top: 400px;
+  left:250px;
   padding: 20px;
   width: 400px;
   height: 500px;
-}
-#dog {
-
+  font-size: 20px;
+  text-align: center;
+  color: #FDFDFD;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;}
 }
 #pictureheader {
   float: right;
   margin-top: 0%;
-  margin-right: 50px;
+  margin-right: 350px;
   padding: 10px;
   text-align: center;
 
@@ -72,10 +65,10 @@ p {
 #imagelist{
   float:right;
   margin-top: 90px;
-  margin-left: 100px;
+  margin-left: 400px;
 }
 #donations {
-  margin-top: 350px;
+  margin-top: 400px;
   text-align: center;
 }
 input {
@@ -87,30 +80,31 @@ input[type="Submit"] {
   background: red;
   color: white;
 }
+#dog {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    border: 3px solid;
+}
 #main_menu {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-content: flex-end;
-  width: 80%;
-  height: 30%;
-  margin: 45px auto;
+  width: 19%;
+  height: 80px;
+  margin: 45px 5px 0px 1200px;
   text-align: center;
+  background-color: black;
 }
 .menu_item {
-  margin: 10px;
+  margin: 5px;
   width: 140px;
   height: 60px;
+  padding: 5px;
   background-color: #038DFF;
-  text-align: center;
 }
-#logo {
-  position: absolute;
-  height: 200px;
-  width: 400px;;
-  top: 1%;
-  left: 1%;
-}
+
+
 /* ======= ======= ======= positioning  ======= ======= ======= */
 /*#main-menu {
 
